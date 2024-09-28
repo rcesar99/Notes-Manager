@@ -1,0 +1,36 @@
+.note-item {
+  background: #f9f9f9;
+  border: 1px solid #6a82fb;
+  padding: 20px;
+  margin-bottom: 25px;
+  width: 500px;
+  border-radius: 4px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note-item p {
+  margin-bottom: 25px;
+}
+
+.note-item button {
+  background-color: #6a82fb;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.note-item button:hover {
+  background-color: #516dfc;
+  transform: scale(1.02);
+}
+
+.note-item button:active {
+  background-color: #ff718f;
+  transform: scale(1);
+}
